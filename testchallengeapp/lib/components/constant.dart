@@ -12,6 +12,12 @@ const kMainText = TextStyle(
   color: Colors.white,
 );
 
+const kChoiceButton = TextStyle(
+  color: Colors.white,
+  fontSize: 33,
+  fontWeight: FontWeight.bold,
+);
+
 const List<Story> _storyData = [
  Story(
      storyTitle:
